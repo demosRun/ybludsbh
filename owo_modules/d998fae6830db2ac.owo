@@ -37,7 +37,7 @@
   width: 100%;
   height: 100%
 }
-.left img{
+.left img {
   display: block;
   position: absolute;
   top: 0;
@@ -70,6 +70,8 @@ em a img {
 em a:hover {
   text-decoration: underline;
 }
- em, em a, em a:link, em a:visited, em a:hover{color:black;}
+em, em a, em a:link, em a:visited, em a:hover {
+  color: black;
+}
 
 </style>
