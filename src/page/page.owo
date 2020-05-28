@@ -50,6 +50,8 @@
             p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......<a href="#"><img src="@|more.png|"></a>
           .right-2.fr
             img(src="http://www.people.com.cn/NMediaFile/2020/0528/MAIN202005280929464452062448355.jpg" width="320" height="160")
+    .conn3.clear
+      plug(_name="module50" _src="https://template.owo.ink/383a6b24707560f7.owo")
 </template>
 
 <script>
