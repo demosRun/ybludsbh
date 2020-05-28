@@ -1,0 +1,156 @@
+<template lang="pug">
+.home
+  plug(_name="module98" _src="https://template.owo.ink/d998fae6830db2ac.owo")
+  //- 题图
+  img.main-top(src="@|top.jpg|")
+  .h50
+  //- 主要内容
+  .w1200
+    .mini-title 数博要闻
+    .h20
+    .conn1.clear
+      .left.fl
+        h1 新闻大标题新闻大标题
+        p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要<a href="#"><img src="@|more.png|"></a>
+        .h20
+        plug(_name="module105" _src="https://template.owo.ink/ff83dd433d2facc8.owo")
+      .right.fr
+        plug(_name="module79" _src="https://template.owo.ink/e649b5279da864c7.owo")
+  .h50
+  .w1200
+    .title
+      a(href="#") 数博要闻
+    .h30
+    .conn2.clear
+      .left.fl
+        a(href="#")
+          img(src="@|left-show.png|")
+      ul.right.fr
+        li.clear
+          .left-2.fl
+            h2 标题标题标题标题标题标题
+            p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......<a href="#"><img src="@|more.png|"></a>
+          .right-2.fr
+            img(src="http://www.people.com.cn/NMediaFile/2020/0528/MAIN202005280929464452062448355.jpg" width="320" height="160")
+        li.clear
+          .left-2.fl
+            h2 标题标题标题标题标题标题
+            p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......<a href="#"><img src="@|more.png|"></a>
+          .right-2.fr
+            img(src="http://www.people.com.cn/NMediaFile/2020/0528/MAIN202005280929464452062448355.jpg" width="320" height="160")
+        li.clear
+          .left-2.fl
+            h2 标题标题标题标题标题标题
+            p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......<a href="#"><img src="@|more.png|"></a>
+          .right-2.fr
+            img(src="http://www.people.com.cn/NMediaFile/2020/0528/MAIN202005280929464452062448355.jpg" width="320" height="160")
+        li.clear
+          .left-2.fl
+            h2 标题标题标题标题标题标题
+            p 摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要摘要......<a href="#"><img src="@|more.png|"></a>
+          .right-2.fr
+            img(src="http://www.people.com.cn/NMediaFile/2020/0528/MAIN202005280929464452062448355.jpg" width="320" height="160")
+</template>
+
+<script>
+  module.exports = {
+    created: function () {
+      console.log('sdsd')
+    }
+  }
+</script>
+
+
+<style lang="less">
+.main-top {
+  width: 100%;
+  height: auto;
+}
+.mini-title {
+  background-image: url('@|mini-title.png|');
+  height: 37px;
+  background-repeat: no-repeat;
+  padding-left: 96px;
+  line-height: 37px;
+  color: white;
+  font-size: 18px;
+  font-family: "Microsoft YaHei";
+}
+.title {
+  background-image: url('@|title.png|');
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: 45% center;
+  text-align: center;
+  font-size: 30px;
+  line-height: 70px;
+  color: #03409c;
+  font-family: "Microsoft YaHei";
+  font-weight: bold;
+  a {
+    color: #03409c;
+    display: block;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #03409c;
+    text-decoration: none;
+  }
+}
+.conn1 {
+  height: 340px;
+  overflow: hidden;
+  .left {
+    width: 560px;
+  }
+  p {
+    line-height: 1.7;
+    font-size: 16px;
+    color: #858585;
+    text-indent: 2em;
+    height: 108px;
+    overflow: hidden;
+    a img {
+      height: 16px;
+      margin-left: 5px;
+    }
+  }
+  h1 {
+    font-size: 35px;
+    line-height: 60px;
+  }
+}
+.conn2 {
+  height: 714px;
+  overflow: hidden;
+  .left {
+    a {
+      display: block;
+    }
+  }
+  .right {
+    width: 690px;
+    .left-2 {
+      width: 325px;
+    }
+    li {
+      height: 160px;
+      overflow: hidden;
+      margin-bottom: 23px;
+    }
+    h2 {
+      margin-bottom: 10px;
+      font-size: 26px;
+    }
+    p {
+      line-height: 1.7;
+      font-size: 21px;
+      text-indent: 2em;
+      color: #b1b1b1;
+    }
+    a img {
+      height: 16px;
+    }
+  }
+}
+</style>
