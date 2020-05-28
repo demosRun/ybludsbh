@@ -52,7 +52,26 @@
             img(src="http://www.people.com.cn/NMediaFile/2020/0528/MAIN202005280929464452062448355.jpg" width="320" height="160")
     .conn3.clear
       .h50
+      //- 小标题
+      img(src="@|logo.png|")
       plug(_name="module50" _src="https://template.owo.ink/383a6b24707560f7.owo")
+    .h50
+    .title
+      a(href="#") 数博会不落幕
+    .h50
+    .conn4.clear
+      .left.fl
+        plug(_name="module12" _src="https://template.owo.ink/71890b4317e4841d.owo")
+      .right.fr
+        ul
+          li
+            a(href="#") 跳转标题跳转标题跳转
+          li
+            a(href="#") 跳转标题跳转标题跳转
+          li
+            a(href="#") 跳转标题跳转标题跳转
+          li
+            a(href="#") 跳转标题跳转标题跳转
 </template>
 
 <script>
@@ -153,6 +172,24 @@
     }
     a img {
       height: 16px;
+    }
+  }
+}
+.conn4 {
+  ul {
+    height: 320px;
+    overflow: hidden;
+  }
+  li {
+    width: 460px;
+    height: 65px;
+    line-height: 65px;
+    background-color: #357dcb;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+    a {
+      color: white;
     }
   }
 }
