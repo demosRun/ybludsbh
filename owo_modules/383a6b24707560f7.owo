@@ -5,11 +5,10 @@
     .swiper-wrapper
       .swiper-slide(:for="data.swiperBoxList")
         .info-box
-          img(src="{value.src}" width="250" height="120")
-          h4
-            a(href="#") {value.title}
           a(href="#")
-            p {value.text}
+            img(src="{value.src}" width="250" height="120")
+            h4 {value.title}
+            p {value.text} <img src="@|more.png|" style="width: auto;height: 14px;">
     .left-button.button(o-tap="swiperPrev()")
     .right-button.button(o-tap="swiperNext()")
   .clear
@@ -103,16 +102,12 @@ a:hover {
 }
 p {
   color: #666666;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 28px;
   margin: 0;
   padding: 0;
   height: 48px;
   overflow: hidden;
-}
-p::after {
-  content: "[阅读]";
-  color: #e60012;
 }
 .button {
   width: 25px;
